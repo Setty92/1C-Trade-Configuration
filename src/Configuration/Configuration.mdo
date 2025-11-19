@@ -39,4 +39,5 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <enums>Enum.СпособыСписанияТМЦ</enums>
 </mdclass:Configuration>
