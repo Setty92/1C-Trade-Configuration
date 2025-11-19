@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.РасчетныеСчетаОрганизации.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="7121ed59-d322-439b-800f-fee514a1d7b3">
     <name>НомерСчета</name>
     <synonym>
@@ -64,4 +65,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="67df281e-3fcb-4105-a69a-38740404d187">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
