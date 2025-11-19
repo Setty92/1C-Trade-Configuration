@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c509547d-530c-4c9a-aa14-4b86906ac0f3">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36aae4e4-ab03-404c-a49d-6c3c6a7715cf">
   <producedTypes>
-    <objectType typeId="8942842b-1430-4d3d-b19c-b9a304b592fa" valueTypeId="785153b6-4d18-4ee4-955b-6e89a48a6f03"/>
-    <refType typeId="0393e4ef-6d8c-4793-8936-9f1ea6ad4419" valueTypeId="52f7b818-b885-4ba4-b567-609acd54933b"/>
-    <selectionType typeId="eac52bbe-635b-47b7-bde6-ec3dfab219e4" valueTypeId="eb733c2a-4705-4da4-b5e1-cf0180371bcd"/>
-    <listType typeId="c918ece1-4fbc-42ef-a726-4248a102aabf" valueTypeId="34b6435c-13ec-4f11-bf1c-0064eb9796b3"/>
-    <managerType typeId="635dd297-0611-4d73-a39f-82e2aec1104d" valueTypeId="5762622a-f956-412a-be23-ebcde48dc992"/>
+    <objectType typeId="6bd92302-fd0f-48fe-ba52-5437963348d6" valueTypeId="6b52f743-1400-407c-a09a-c3b5c1384973"/>
+    <refType typeId="7fff7bdf-10be-42bf-b24d-cf3d99843839" valueTypeId="69de3b89-468e-41d4-b41c-4627b64f12c3"/>
+    <selectionType typeId="05d3811b-2fa2-4481-bfc3-aea9062376e6" valueTypeId="3a6c4e09-e0b6-433f-92f5-031147c9bf25"/>
+    <listType typeId="365d2c95-4ea7-4056-9b37-1853a3d92ff2" valueTypeId="3552df09-d305-4adc-ba53-9acada6ae9b5"/>
+    <managerType typeId="1cb70f09-6fe8-4e41-88b4-bcf6d16f1537" valueTypeId="1b00efe4-4b5d-421d-a8d7-f2229e70a28e"/>
   </producedTypes>
-  <name>Банки</name>
+  <name>РасчетныеСчетаОрганизации</name>
   <synonym>
     <key>ru</key>
-    <value>Банки</value>
+    <value>Расчетные счета организации</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Банки.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Банки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РасчетныеСчетаОрганизации.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.РасчетныеСчетаОрганизации.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -30,16 +30,16 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="61b45bea-aebf-4899-910f-e344f204832a">
-    <name>БИК</name>
+  <attributes uuid="7121ed59-d322-439b-800f-fee514a1d7b3">
+    <name>НомерСчета</name>
     <synonym>
       <key>ru</key>
-      <value>БИК</value>
+      <value>Номер счета</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>9</length>
+        <length>20</length>
         <fixed>true</fixed>
       </stringQualifiers>
     </type>
@@ -49,18 +49,14 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="c457d00b-4b07-49c7-a241-875dc1cb897a">
-    <name>КорСчет</name>
+  <attributes uuid="df2a124e-3049-46f1-b164-cca96f585530">
+    <name>Банк</name>
     <synonym>
       <key>ru</key>
-      <value>Кор счет</value>
+      <value>Банк</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>20</length>
-        <fixed>true</fixed>
-      </stringQualifiers>
+      <types>CatalogRef.Банки</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
