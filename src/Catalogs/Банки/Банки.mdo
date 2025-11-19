@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c509547d-530c-4c9a-aa14-4b86906ac0f3">
+  <producedTypes>
+    <objectType typeId="8942842b-1430-4d3d-b19c-b9a304b592fa" valueTypeId="785153b6-4d18-4ee4-955b-6e89a48a6f03"/>
+    <refType typeId="0393e4ef-6d8c-4793-8936-9f1ea6ad4419" valueTypeId="52f7b818-b885-4ba4-b567-609acd54933b"/>
+    <selectionType typeId="eac52bbe-635b-47b7-bde6-ec3dfab219e4" valueTypeId="eb733c2a-4705-4da4-b5e1-cf0180371bcd"/>
+    <listType typeId="c918ece1-4fbc-42ef-a726-4248a102aabf" valueTypeId="34b6435c-13ec-4f11-bf1c-0064eb9796b3"/>
+    <managerType typeId="635dd297-0611-4d73-a39f-82e2aec1104d" valueTypeId="5762622a-f956-412a-be23-ebcde48dc992"/>
+  </producedTypes>
+  <name>Банки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Банки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Банки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="61b45bea-aebf-4899-910f-e344f204832a">
+    <name>БИК</name>
+    <synonym>
+      <key>ru</key>
+      <value>БИК</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
