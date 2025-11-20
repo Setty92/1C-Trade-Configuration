@@ -40,6 +40,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Банки</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.РасчетныеСчетаОрганизации</catalogs>
   <enums>Enum.СпособыСписанияТМЦ</enums>
 </mdclass:Configuration>
