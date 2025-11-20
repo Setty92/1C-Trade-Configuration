@@ -39,6 +39,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.НСИ</subsystems>
   <catalogs>Catalog.Банки</catalogs>
   <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
