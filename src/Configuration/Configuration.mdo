@@ -41,6 +41,7 @@
   </languages>
   <catalogs>Catalog.Банки</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.РасчетныеСчетаКонтрагентов</catalogs>
   <catalogs>Catalog.РасчетныеСчетаОрганизации</catalogs>
   <enums>Enum.СпособыСписанияТМЦ</enums>
 </mdclass:Configuration>

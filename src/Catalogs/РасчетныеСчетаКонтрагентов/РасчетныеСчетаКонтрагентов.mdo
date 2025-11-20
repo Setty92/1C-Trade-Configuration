@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e33a2f80-5279-4287-8e8d-e96c3e0b9140">
+  <producedTypes>
+    <objectType typeId="8a7e4367-8d99-41a7-bb76-c3c5e9bc6b5d" valueTypeId="b6fc7fc3-70a8-4be9-9430-5f7ceea5dcb2"/>
+    <refType typeId="6da66da2-76aa-4b41-b9ba-bdfaad1f9747" valueTypeId="70e1941d-f88f-4e12-a03a-afacc2bed7b9"/>
+    <selectionType typeId="f7c4e311-3b2c-4922-bef1-22c9f48cbb0a" valueTypeId="8c8312dc-9491-41bf-8e88-8d6afc474a4d"/>
+    <listType typeId="091321cd-bf5c-4b87-b0d6-bf4b7b5c32bb" valueTypeId="46b40d2a-9349-40fe-ac03-08a6dba95de7"/>
+    <managerType typeId="a9ccc5bd-3c94-48a0-8595-d144561483b0" valueTypeId="8d4aebd0-ee6e-4b85-baa4-f7b103a77254"/>
+  </producedTypes>
+  <name>РасчетныеСчетаКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчетные счета контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РасчетныеСчетаКонтрагентов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.РасчетныеСчетаКонтрагентов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.РасчетныеСчетаКонтрагентов.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="0ba4ab6a-8b47-4c02-a7c2-4d9e7435a7e1">
+    <name>НомерСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер счета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bcef5dd6-a8fd-4142-8895-34b6f2ef57c4">
+    <name>Банк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Банки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5d4159c2-b2a5-4a42-90f8-567c1f79249c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
