@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd74dede-c77d-4d1b-ae6f-e449e9501be6">
+  <producedTypes>
+    <objectType typeId="f06f4714-a9fb-4a50-9cdb-38e421ae2fc8" valueTypeId="3ebe7348-fc2d-40d6-abe3-9847ea4ec80f"/>
+    <refType typeId="a06cd3b0-7ea1-48ff-b974-0cc2e530946d" valueTypeId="2cf5b4e2-189f-4a5a-8776-cbaabcc5a959"/>
+    <selectionType typeId="e5c0c231-9f6e-4257-aa96-0038dde92f0f" valueTypeId="021d833f-9e86-46e9-b64c-fc2c370f6cdf"/>
+    <listType typeId="035129a4-186b-47c6-bf60-ed76b09b647a" valueTypeId="4e2628f8-3f33-4d5c-a9a7-9fa1e3e7e875"/>
+    <managerType typeId="b256c905-aace-4396-b335-935a148f6e89" valueTypeId="01cec4d5-74dd-4b11-9208-2941aeb60caa"/>
+  </producedTypes>
+  <name>Договоры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Договоры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Договоры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Договоры.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="b4bdc2be-9fd3-44e2-af84-9457ab7c3255">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
